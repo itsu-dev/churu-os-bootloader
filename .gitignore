@@ -1,3 +1,4 @@
 /target
 mikanos-build/
 build/
+OVMF.fd
