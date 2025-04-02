@@ -1,6 +1,7 @@
 services:
   rust:
-    image: rustlang/rust:nightly
+    build:
+      dockerfile: ./Dockerfile
     volumes:
       - ../:/app
     working_dir: /app
